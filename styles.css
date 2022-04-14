@@ -17,6 +17,7 @@ body {
     min-width: 120px;
     padding: 2.5px;
     border-radius: 4px;
+    background-color: rgb(77, 77, 77);
 }
 
 #display {
@@ -32,6 +33,16 @@ body {
 
 #text {
     margin-right: 3px;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    font-size: 11px;
 }
 
 #pad {
